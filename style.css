@@ -1,0 +1,31 @@
+/**
+ * Reset
+ */
+html,body,div,span,applet,object,iframe,table,caption,tbody,tfoot,thead,tr,th,td,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,dl,dt,dd,ol,ul,li,fieldset,form,label,legend{vertical-align:baseline;font-family:inherit;font-weight:inherit;font-style:inherit;font-size:100%;outline:0;border:0;margin:0;padding:0}
+*{border:0;outline:0;list-style:none;text-decoration:none;border-collapse:collapse;border-spacing:0;border-width:0;margin:0;padding:0}
+:focus{outline:0}
+body{background:#FFF;line-height:1;color:#000}
+ol,ul{list-style:none}
+table{border-collapse:separate;border-spacing:0}
+caption,th,td{font-weight:400;text-align:left}
+textarea{resize:none}
+strong,b{font-weight:700}
+i,em{font-style:italic}
+u{text-decoration:underline}
+strike{text-decoration:line-through}
+sub{font-size:xx-small;vertical-align:top}
+sup{font-size:xx-small;vertical-align:bottom}
+hr{margin: 10px 0;border-bottom:1px solid #999}
+
+/**
+* Style
+*/
+body{
+  font: 14px/1.4 arial, helvetica, sans-serif;
+}
+
+.tabs{
+  width: 500px;
+  margin: 0 auto;
+  border: 1px solid #ddd;
+}
