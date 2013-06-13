@@ -1,5 +1,5 @@
-  /**
-   * Sistema de tabs
+	/**
+	 * Sistema de tabs
 	 * Marcio Antunes 
 	 */
 	.tabs{
@@ -29,30 +29,29 @@
 
 	.tabs>ul li{
 		float: left;
-		margin-left: 10px;
+		margin-left: 0.8em;
 	}
 
 	.tabs>ul li:first-child{
-		margin-left: 0;
 	}
 
 	.tabs>ul li a{
-		font-size: 15px;
-		padding: 10px 20px;
-		background: #f0f0f0;
-		border: 1px solid #ddd;
+		padding: 0.5em 1.5em;
+		background: #f7f7f7;
+		border: 1px solid #f1f1f1;
 		border-bottom-width: 0;
 		cursor: pointer;
+		color: #555;
 	}
 
 	.tabs>ul li a:hover{
 		color: #333;
-		background: #ccc;
+		border-color: #ddd;
 	}
 
 	.tabs>ul li a.active,
 	.tabs>ul li a.active:hover{
-		color: #FFF;
+		color: #eee;
 		background: #333;
 		border-color: #444;
 	}
@@ -83,4 +82,7 @@
 	 * 	</div>
 	 * </div>
 	 */
-	.tabs .tab{}
+	.tabs .tab{
+		display: none;
+		padding: 1em 0.5em;
+	}
